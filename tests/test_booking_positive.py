@@ -7,7 +7,7 @@ def test_get_all_bookings():
     assert response.status_code == 200
     assert isinstance(response.json(), list)
 
-def test_creat_booking():
+def test_create_booking():
     payload = {
         "firstname": "John",
         "lastname": "Doe",
